@@ -67,7 +67,7 @@ def generate_dashboard(df, output_path):
     # ------------------ (A) Real-Time Battery Temperature Stream ------------------
     print("Plotting Battery Temperature Stream...")
     # Resample to hourly average to make the line charts clean
-    df_hourly = df.set_index('timestamp').groupby(['device_id']).resample('H').mean().reset_index()
+    df_hourly = df.set_index('timestamp').groupby(['device_id']).resample('h').mean().reset_index()
     
     devices = sorted(df['device_id'].unique())
     device_colors = [neon_cyan, '#00bfff', neon_yellow, '#ffa500', neon_magenta]
