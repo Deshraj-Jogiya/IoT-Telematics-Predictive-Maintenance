@@ -20,3 +20,5 @@ jobs:
           python etl/telemetry_pipeline.py
           python models/predictive_maintenance.py
           python viz/dashboard_export.py
+      - name: Run the Jax-accelerated health-decay tests
+        run: pytest tests/test_jax_health_decay.py -v
