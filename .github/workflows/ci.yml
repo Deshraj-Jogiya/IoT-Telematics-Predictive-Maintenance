@@ -21,4 +21,4 @@ jobs:
           python models/predictive_maintenance.py
           python viz/dashboard_export.py
       - name: Run the Jax-accelerated health-decay tests
-        run: pytest tests/test_jax_health_decay.py -v
+        run: python -m pytest tests/test_jax_health_decay.py -v
