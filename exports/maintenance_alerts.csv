@@ -1,0 +1,405 @@
+device_id,alert_timestamp,alert_type,severity,rul_days
+DEV-004,2026-03-15 09:40:00,Sensor Anomaly,WARNING,90.0
+DEV-002,2026-03-15 14:40:00,Sensor Anomaly,WARNING,90.0
+DEV-004,2026-03-15 21:00:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-16 00:40:00,Sensor Anomaly,WARNING,82.7
+DEV-004,2026-03-16 01:40:00,Sensor Anomaly,WARNING,90.0
+DEV-003,2026-03-16 03:40:00,Sensor Anomaly,WARNING,73.1
+DEV-002,2026-03-16 06:00:00,Sensor Anomaly,WARNING,90.0
+DEV-004,2026-03-16 09:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-16 11:00:00,Sensor Anomaly,WARNING,79.0
+DEV-003,2026-03-16 14:40:00,Sensor Anomaly,WARNING,69.5
+DEV-004,2026-03-16 17:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-16 20:20:00,Sensor Anomaly,WARNING,75.4
+DEV-001,2026-03-17 05:20:00,Sensor Anomaly,WARNING,90.0
+DEV-003,2026-03-17 07:00:00,Sensor Anomaly,WARNING,65.9
+DEV-002,2026-03-17 07:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-17 13:20:00,Sensor Anomaly,WARNING,71.6
+DEV-002,2026-03-17 13:40:00,Sensor Anomaly,WARNING,90.0
+DEV-004,2026-03-18 07:40:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-18 13:20:00,Sensor Anomaly,WARNING,67.7
+DEV-002,2026-03-18 14:40:00,Sensor Anomaly,WARNING,90.0
+DEV-001,2026-03-18 16:00:00,Sensor Anomaly,WARNING,90.0
+DEV-004,2026-03-19 00:00:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-19 00:40:00,Sensor Anomaly,WARNING,64.0
+DEV-003,2026-03-19 05:40:00,Sensor Anomaly,WARNING,61.6
+DEV-004,2026-03-19 07:20:00,Sensor Anomaly,WARNING,90.0
+DEV-001,2026-03-19 22:40:00,Sensor Anomaly,WARNING,90.0
+DEV-001,2026-03-20 03:00:00,Sensor Anomaly,WARNING,90.0
+DEV-004,2026-03-20 04:00:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-20 04:40:00,Sensor Anomaly,WARNING,60.0
+DEV-001,2026-03-20 08:40:00,Sensor Anomaly,WARNING,90.0
+DEV-003,2026-03-20 12:40:00,Sensor Anomaly,WARNING,57.6
+DEV-002,2026-03-20 15:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-20 22:00:00,Sensor Anomaly,WARNING,56.2
+DEV-002,2026-03-20 23:40:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-21 03:00:00,Sensor Anomaly,WARNING,49.2
+DEV-001,2026-03-21 10:40:00,Sensor Anomaly,WARNING,90.0
+DEV-004,2026-03-21 15:00:00,Sensor Anomaly,WARNING,90.0
+DEV-002,2026-03-21 16:00:00,Sensor Anomaly,WARNING,90.0
+DEV-004,2026-03-21 19:20:00,Sensor Anomaly,WARNING,90.0
+DEV-003,2026-03-22 00:20:00,Sensor Anomaly,WARNING,53.5
+DEV-004,2026-03-22 01:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-22 03:20:00,Sensor Anomaly,WARNING,45.3
+DEV-001,2026-03-22 04:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-22 13:40:00,Sensor Anomaly,WARNING,38.2
+DEV-005,2026-03-22 17:40:00,Sensor Anomaly,WARNING,34.7
+DEV-004,2026-03-22 18:20:00,Sensor Anomaly,WARNING,90.0
+DEV-004,2026-03-22 23:00:00,Sensor Anomaly,WARNING,90.0
+DEV-002,2026-03-23 00:00:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-23 00:20:00,Sensor Anomaly,WARNING,31.1
+DEV-003,2026-03-23 01:20:00,Sensor Anomaly,WARNING,43.0
+DEV-005,2026-03-23 08:40:00,Sensor Anomaly,WARNING,27.5
+DEV-002,2026-03-23 12:20:00,Sensor Anomaly,WARNING,90.0
+DEV-004,2026-03-23 14:20:00,Sensor Anomaly,WARNING,90.0
+DEV-001,2026-03-23 17:20:00,Sensor Anomaly,WARNING,90.0
+DEV-003,2026-03-24 03:40:00,Sensor Anomaly,WARNING,39.1
+DEV-001,2026-03-24 10:00:00,Sensor Anomaly,WARNING,90.0
+DEV-003,2026-03-24 19:00:00,Sensor Anomaly,WARNING,35.5
+DEV-001,2026-03-24 19:40:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-24 21:00:00,Sensor Anomaly,WARNING,23.3
+DEV-002,2026-03-25 04:40:00,Sensor Anomaly,WARNING,90.0
+DEV-004,2026-03-25 07:00:00,Sensor Anomaly,WARNING,90.0
+DEV-001,2026-03-25 07:40:00,Sensor Anomaly,WARNING,90.0
+DEV-003,2026-03-25 11:00:00,Sensor Anomaly,WARNING,31.8
+DEV-001,2026-03-25 12:40:00,Sensor Anomaly,WARNING,90.0
+DEV-003,2026-03-25 17:40:00,Sensor Anomaly,WARNING,25.0
+DEV-004,2026-03-25 18:20:00,Sensor Anomaly,WARNING,90.0
+DEV-001,2026-03-25 19:00:00,Sensor Anomaly,WARNING,90.0
+DEV-002,2026-03-25 22:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-26 01:20:00,Sensor Anomaly,WARNING,15.8
+DEV-003,2026-03-26 06:40:00,Sensor Anomaly,WARNING,21.4
+DEV-001,2026-03-26 12:20:00,Sensor Anomaly,WARNING,90.0
+DEV-003,2026-03-26 14:00:00,Sensor Anomaly,WARNING,14.6
+DEV-001,2026-03-26 17:00:00,Sensor Anomaly,WARNING,90.0
+DEV-004,2026-03-26 17:40:00,Sensor Anomaly,WARNING,90.0
+DEV-002,2026-03-26 18:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-26 20:40:00,Low Remaining Useful Life,HIGH,12.0
+DEV-003,2026-03-27 00:20:00,Low Remaining Useful Life,HIGH,11.0
+DEV-005,2026-03-27 00:40:00,Low Remaining Useful Life,HIGH,11.9
+DEV-004,2026-03-27 04:00:00,Sensor Anomaly,WARNING,90.0
+DEV-003,2026-03-27 04:20:00,Low Remaining Useful Life,HIGH,10.9
+DEV-005,2026-03-27 04:40:00,Low Remaining Useful Life,HIGH,8.4
+DEV-005,2026-03-27 07:20:00,Critical Health Degradation,CRITICAL,4.9
+DEV-003,2026-03-27 08:20:00,Low Remaining Useful Life,HIGH,10.8
+DEV-004,2026-03-27 10:40:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-27 11:20:00,Critical Health Degradation,CRITICAL,4.8
+DEV-001,2026-03-27 11:40:00,Sensor Anomaly,WARNING,90.0
+DEV-003,2026-03-27 12:20:00,Low Remaining Useful Life,HIGH,10.8
+DEV-005,2026-03-27 15:20:00,Critical Health Degradation,CRITICAL,4.7
+DEV-003,2026-03-27 16:20:00,Low Remaining Useful Life,HIGH,10.7
+DEV-002,2026-03-27 19:00:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-27 19:20:00,Critical Health Degradation,CRITICAL,4.6
+DEV-001,2026-03-27 19:40:00,Sensor Anomaly,WARNING,90.0
+DEV-003,2026-03-27 20:20:00,Low Remaining Useful Life,HIGH,10.6
+DEV-005,2026-03-27 23:20:00,Critical Health Degradation,CRITICAL,4.5
+DEV-004,2026-03-27 23:40:00,Sensor Anomaly,WARNING,90.0
+DEV-003,2026-03-28 00:20:00,Low Remaining Useful Life,HIGH,7.2
+DEV-002,2026-03-28 01:00:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-28 03:20:00,Critical Health Degradation,CRITICAL,4.4
+DEV-003,2026-03-28 03:40:00,Critical Health Degradation,CRITICAL,3.8
+DEV-001,2026-03-28 06:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-28 07:20:00,Critical Health Degradation,CRITICAL,4.4
+DEV-003,2026-03-28 07:40:00,Critical Health Degradation,CRITICAL,3.7
+DEV-005,2026-03-28 11:20:00,Critical Health Degradation,CRITICAL,4.3
+DEV-003,2026-03-28 11:40:00,Critical Health Degradation,CRITICAL,3.6
+DEV-002,2026-03-28 13:00:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-28 15:20:00,Critical Health Degradation,CRITICAL,0.8
+DEV-003,2026-03-28 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-03-28 19:20:00,Critical Health Degradation,CRITICAL,0.7
+DEV-003,2026-03-28 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-03-28 23:20:00,Critical Health Degradation,CRITICAL,0.6
+DEV-003,2026-03-28 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-03-29 03:20:00,Critical Health Degradation,CRITICAL,0.5
+DEV-003,2026-03-29 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-03-29 04:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-29 07:20:00,Critical Health Degradation,CRITICAL,0.4
+DEV-003,2026-03-29 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-03-29 07:40:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-29 11:20:00,Critical Health Degradation,CRITICAL,0.3
+DEV-003,2026-03-29 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-03-29 13:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-29 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-03-29 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-03-29 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-03-29 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-03-29 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-03-29 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-03-30 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-03-30 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-03-30 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-03-30 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-03-30 11:00:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-30 11:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-03-30 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-03-30 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-03-30 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-03-30 17:00:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-30 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-03-30 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-03-30 22:20:00,Sensor Anomaly,WARNING,90.0
+DEV-004,2026-03-30 23:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-30 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-03-30 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-03-31 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-03-31 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-03-31 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-03-31 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-03-31 11:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-03-31 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-03-31 14:40:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-03-31 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-03-31 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-03-31 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-03-31 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-03-31 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-03-31 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-01 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-01 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-002,2026-04-01 06:00:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-01 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-01 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-01 11:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-01 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-01 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-01 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-01 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-01 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-01 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-01 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-02 00:00:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-02 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-02 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-02 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-02 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-02 08:20:00,Sensor Anomaly,WARNING,90.0
+DEV-001,2026-04-02 10:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-02 11:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-02 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-02 14:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-02 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-02 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-02 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-02 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-02 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-02 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-03 01:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-03 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-03 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-03 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-03 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-03 08:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-03 11:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-03 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-03 15:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-03 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-03 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-03 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-03 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-03 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-03 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-04 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-04 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-04 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-04 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-04 11:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-04 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-04 12:00:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-04 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-04 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-002,2026-04-04 19:00:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-04 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-04 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-04 21:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-04 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-04 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-05 01:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-05 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-05 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-05 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-05 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-05 07:40:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-05 11:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-05 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-05 12:00:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-05 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-05 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-05 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-05 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-05 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-05 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-06 03:00:00,Sensor Anomaly,WARNING,88.0
+DEV-005,2026-04-06 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-06 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-06 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-06 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-002,2026-04-06 09:00:00,Sensor Anomaly,WARNING,90.0
+DEV-001,2026-04-06 10:00:00,Sensor Anomaly,WARNING,80.4
+DEV-005,2026-04-06 11:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-06 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-06 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-06 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-06 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-06 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-06 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-06 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-07 02:20:00,Sensor Anomaly,WARNING,85.0
+DEV-005,2026-04-07 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-07 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-07 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-07 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-07 11:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-07 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-07 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-07 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-002,2026-04-07 17:40:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-07 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-07 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-07 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-07 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-08 03:00:00,Sensor Anomaly,WARNING,72.0
+DEV-005,2026-04-08 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-08 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-08 05:20:00,Sensor Anomaly,WARNING,78.2
+DEV-002,2026-04-08 06:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-08 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-08 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-08 09:00:00,Sensor Anomaly,WARNING,64.4
+DEV-005,2026-04-08 11:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-08 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-08 12:20:00,Sensor Anomaly,WARNING,71.8
+DEV-001,2026-04-08 13:00:00,Sensor Anomaly,WARNING,56.8
+DEV-005,2026-04-08 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-08 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-08 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-08 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-08 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-08 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-09 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-09 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-002,2026-04-09 07:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-09 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-09 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-09 11:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-09 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-09 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-09 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-09 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-09 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-09 19:40:00,Sensor Anomaly,WARNING,64.9
+DEV-001,2026-04-09 20:20:00,Sensor Anomaly,WARNING,48.6
+DEV-005,2026-04-09 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-09 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-10 01:00:00,Sensor Anomaly,WARNING,41.1
+DEV-002,2026-04-10 02:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-10 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-10 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-10 06:00:00,Sensor Anomaly,WARNING,33.4
+DEV-005,2026-04-10 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-10 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-10 11:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-10 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-10 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-10 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-10 17:20:00,Sensor Anomaly,WARNING,58.2
+DEV-001,2026-04-10 17:40:00,Sensor Anomaly,WARNING,25.7
+DEV-005,2026-04-10 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-10 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-10 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-10 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-11 01:40:00,Sensor Anomaly,WARNING,18.0
+DEV-005,2026-04-11 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-11 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-11 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-11 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-11 10:00:00,Low Remaining Useful Life,HIGH,10.4
+DEV-005,2026-04-11 11:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-11 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-11 14:00:00,Low Remaining Useful Life,HIGH,10.3
+DEV-004,2026-04-11 14:20:00,Sensor Anomaly,WARNING,45.3
+DEV-005,2026-04-11 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-11 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-11 18:00:00,Low Remaining Useful Life,HIGH,10.2
+DEV-004,2026-04-11 18:20:00,Sensor Anomaly,WARNING,32.7
+DEV-005,2026-04-11 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-11 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-11 22:00:00,Low Remaining Useful Life,HIGH,10.1
+DEV-005,2026-04-11 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-11 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-12 00:20:00,Critical Health Degradation,CRITICAL,2.6
+DEV-005,2026-04-12 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-12 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-12 04:20:00,Critical Health Degradation,CRITICAL,2.5
+DEV-005,2026-04-12 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-12 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-12 08:20:00,Critical Health Degradation,CRITICAL,2.4
+DEV-005,2026-04-12 11:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-12 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-12 12:20:00,Critical Health Degradation,CRITICAL,2.3
+DEV-005,2026-04-12 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-12 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-12 16:20:00,Critical Health Degradation,CRITICAL,2.2
+DEV-002,2026-04-12 18:20:00,Sensor Anomaly,WARNING,90.0
+DEV-005,2026-04-12 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-12 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-12 20:20:00,Critical Health Degradation,CRITICAL,2.1
+DEV-005,2026-04-12 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-12 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-13 00:20:00,Critical Health Degradation,CRITICAL,2.1
+DEV-002,2026-04-13 00:20:00,Sensor Anomaly,WARNING,88.8
+DEV-005,2026-04-13 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-13 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-13 03:40:00,Sensor Anomaly,WARNING,25.7
+DEV-001,2026-04-13 04:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-002,2026-04-13 04:40:00,Sensor Anomaly,WARNING,82.7
+DEV-005,2026-04-13 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-13 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-13 08:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-002,2026-04-13 08:40:00,Sensor Anomaly,WARNING,76.6
+DEV-005,2026-04-13 11:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-13 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-13 12:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-13 14:00:00,Sensor Anomaly,WARNING,19.3
+DEV-005,2026-04-13 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-13 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-13 16:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-13 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-13 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-13 20:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-13 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-13 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-14 00:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-14 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-14 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-14 04:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-14 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-14 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-14 08:00:00,Low Remaining Useful Life,HIGH,12.7
+DEV-001,2026-04-14 08:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-002,2026-04-14 08:20:00,Sensor Anomaly,WARNING,70.1
+DEV-004,2026-04-14 08:20:00,Critical Health Degradation,CRITICAL,6.4
+DEV-005,2026-04-14 11:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-14 11:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-14 12:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-14 12:20:00,Critical Health Degradation,CRITICAL,6.3
+DEV-005,2026-04-14 15:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-14 15:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-14 16:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-14 16:20:00,Critical Health Degradation,CRITICAL,6.2
+DEV-005,2026-04-14 19:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-002,2026-04-14 19:40:00,Sensor Anomaly,WARNING,63.8
+DEV-003,2026-04-14 19:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-14 20:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-14 20:20:00,Critical Health Degradation,CRITICAL,6.1
+DEV-005,2026-04-14 23:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-14 23:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-15 00:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-15 00:20:00,Critical Health Degradation,CRITICAL,6.1
+DEV-005,2026-04-15 03:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-15 03:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-15 04:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-15 04:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-005,2026-04-15 07:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-003,2026-04-15 07:40:00,Critical Health Degradation,CRITICAL,0.0
+DEV-001,2026-04-15 08:20:00,Critical Health Degradation,CRITICAL,0.0
+DEV-004,2026-04-15 08:20:00,Critical Health Degradation,CRITICAL,0.0

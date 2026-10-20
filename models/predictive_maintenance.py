@@ -15,6 +15,9 @@ def load_data(db_path):
     conn.close()
     return df
 
+ALERT_REPEAT_INTERVAL = pd.Timedelta(hours=4)
+
+
 def compute_anomalies_and_health(df):
     """Computes rolling Z-scores, anomaly flags, and models exponential health decay & RUL."""
     print("Computing rolling Z-scores and anomaly flags...")
@@ -81,6 +84,7 @@ def compute_anomalies_and_health(df):
         
         # Track active alerts to avoid spamming consecutive identical warnings
         last_alert_type = None
+        last_alert_time = None
         
         for idx, row in group.iterrows():
             ts = row['ts_dt']
@@ -132,8 +136,11 @@ def compute_anomalies_and_health(df):
                     alert_type = "Low Remaining Useful Life"
                     severity = "HIGH"
                     
-            if alert_triggered:
+            repeat = (alert_type == last_alert_type and last_alert_time is not None
+                      and (ts - last_alert_time) < ALERT_REPEAT_INTERVAL)
+            if alert_triggered and not repeat:
                 # Only log alert if it's a new type or at least 4 hours have passed since the last alert
+                last_alert_type, last_alert_time = alert_type, ts
                 alerts.append({
                     'device_id': device,
                     'alert_timestamp': row['timestamp'],
@@ -177,8 +184,9 @@ def save_results(db_path, df, alerts):
     conn.commit()
     print(f"Updated {len(records)} telemetry logs in database.")
     
-    # Write alerts
+    # Write alerts (replacing the previous run's, so re-running the model doesn't stack duplicates)
     print(f"Saving {len(alerts)} maintenance alerts to database...")
+    cursor.execute("DELETE FROM maintenance_alerts")
     alert_query = """
     INSERT INTO maintenance_alerts 
     (device_id, alert_timestamp, alert_type, remaining_useful_life_days, severity)

@@ -9,7 +9,10 @@ useful life (RUL) with an exponential degradation model, re-implemented as a JIT
 
 - **Micro-batch ingestion** of battery and motor sensor logs into SQLite.
 - **Anomaly detection:** rolling Z-scores on sensor metrics flag readings before they turn into failures, with threshold alerts.
-- **RUL model:** exponential decay estimates remaining useful life per device.
+- **RUL model:** exponential decay estimates remaining useful life per device; low-RUL and critical-health alerts repeat at most
+  every 4 hours while a condition persists (404 alerts across the fleet instead of one per reading), covered by `tests/test_alerts.py`.
+- **Fleet dashboard:** `viz/powerbi_export.py` writes daily device health, alerts and current device status to `exports/` for the
+  Power BI report.
 - **JAX:** the sequential health-decay calculation runs as a single `jax.lax.scan`, tested to match the original per-row version exactly.
 
 ## Architecture
@@ -35,9 +38,10 @@ pip install -r requirements.txt
 python etl/telemetry_pipeline.py
 python models/predictive_maintenance.py
 python viz/dashboard_export.py
-python -m pytest tests/test_jax_health_decay.py -v
+python viz/powerbi_export.py      # CSVs for the Power BI report
+python -m pytest tests/ -v
 ```
 
 ## Data
 
-The fleet telemetry is simulated.
+The fleet telemetry is simulated: 5 devices, hourly-or-faster readings from 2026-03-15 to 2026-04-15 (11,315 readings).

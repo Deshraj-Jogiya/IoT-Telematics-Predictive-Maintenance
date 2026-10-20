@@ -20,5 +20,6 @@ jobs:
           python etl/telemetry_pipeline.py
           python models/predictive_maintenance.py
           python viz/dashboard_export.py
-      - name: Run the Jax-accelerated health-decay tests
-        run: python -m pytest tests/test_jax_health_decay.py -v
+          python viz/powerbi_export.py
+      - name: Run the tests (JAX health decay, alert de-duplication)
+        run: python -m pytest tests/ -v
