@@ -53,7 +53,7 @@ def generate_dashboard(df, output_path):
     
     # Create figure and layout (1 Top subplot, 2 Bottom subplots)
     fig = plt.figure(figsize=(16, 11), dpi=120)
-    fig.suptitle('Power BI IoT Fleet Telematics & Predictive Maintenance Dashboard', 
+    fig.suptitle('IoT Fleet Telematics & Predictive Maintenance Dashboard', 
                  fontsize=20, fontweight='bold', color=neon_cyan, y=0.96)
     
     # Create gridspec layout
@@ -160,7 +160,7 @@ def generate_dashboard(df, output_path):
 def main():
     project_root = get_project_root()
     db_path = os.path.join(project_root, 'data', 'iot_telemetry.db')
-    output_path = os.path.join(project_root, 'viz', 'powerbi_iot_dashboard.png')
+    output_path = os.path.join(project_root, 'viz', 'matplotlib_dashboard_preview.png')
     
     if not os.path.exists(db_path):
         raise FileNotFoundError(f"Database not found at {db_path}. Run telemetry_pipeline.py and predictive_maintenance.py first.")
