@@ -44,4 +44,4 @@ python -m pytest tests/ -v
 
 ## Data
 
-The fleet telemetry is simulated: 5 devices, hourly-or-faster readings from 2026-03-15 to 2026-04-15 (11,315 readings).
+The fleet telemetry is simulated: 5 devices, one reading every 20 minutes from 2026-03-15 to 2026-04-15 (11,315 readings).
