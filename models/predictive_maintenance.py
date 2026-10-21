@@ -200,6 +200,31 @@ def save_results(db_path, df, alerts):
     conn.close()
     print("Predictive Maintenance calculations and warnings updated successfully.")
 
+def evaluate_against_planted(db_path, df, out=None):
+    """Precision and recall of the Z-score anomaly flag against the simulator's planted spikes (read only here)."""
+    conn = sqlite3.connect(db_path)
+    planted = pd.read_sql_query("SELECT device_id, timestamp, kind FROM injected_anomalies", conn)
+    conn.close()
+    keys = set(zip(planted["device_id"], planted["timestamp"]))
+    truth = pd.Series([k in keys for k in zip(df["device_id"], df["timestamp"])], index=df.index)
+    flagged = df["anomaly_flag"] == 1
+    tp = int((flagged & truth).sum())
+    rows = [{"kind": "any", "planted_readings": int(truth.sum()), "flagged": int(flagged.sum()), "caught": tp,
+             "precision": round(tp / flagged.sum(), 4) if flagged.any() else 0.0,
+             "recall": round(tp / truth.sum(), 4) if truth.any() else 0.0}]
+    for kind, grp in planted.groupby("kind"):
+        k_keys = set(zip(grp["device_id"], grp["timestamp"]))
+        k_truth = pd.Series([k in k_keys for k in zip(df["device_id"], df["timestamp"])], index=df.index)
+        rows.append({"kind": kind, "planted_readings": int(k_truth.sum()), "flagged": None, "caught": int((flagged & k_truth).sum()),
+                     "precision": None, "recall": round(int((flagged & k_truth).sum()) / k_truth.sum(), 4)})
+    metrics = pd.DataFrame(rows)
+    out = out or os.path.join(get_project_root(), "models", "anomaly_detection_metrics.csv")
+    metrics.to_csv(out, index=False)
+    print("Z-score anomaly flag against the planted spikes:")
+    print(metrics.to_string(index=False))
+    return metrics
+
+
 def main():
     project_root = get_project_root()
     db_path = os.path.join(project_root, 'data', 'iot_telemetry.db')
@@ -210,6 +235,7 @@ def main():
     df = load_data(db_path)
     df, alerts = compute_anomalies_and_health(df)
     save_results(db_path, df, alerts)
+    evaluate_against_planted(db_path, df)
 
 if __name__ == '__main__':
     main()

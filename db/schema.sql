@@ -23,6 +23,14 @@ CREATE TABLE IF NOT EXISTS maintenance_alerts (
     severity TEXT NOT NULL
 );
 
+-- Planted sensor spikes from the simulator. The anomaly detector never reads this table; it is used only to measure the detector.
+CREATE TABLE IF NOT EXISTS injected_anomalies (
+    device_id TEXT NOT NULL,
+    timestamp DATETIME NOT NULL,
+    kind TEXT NOT NULL,
+    PRIMARY KEY (device_id, timestamp, kind)
+);
+
 -- Create indexes for performance optimization on common query filters
 CREATE INDEX IF NOT EXISTS idx_telemetry_device_time ON telemetry_logs (device_id, timestamp);
 CREATE INDEX IF NOT EXISTS idx_alerts_device_time ON maintenance_alerts (device_id, alert_timestamp);

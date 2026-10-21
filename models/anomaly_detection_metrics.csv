@@ -1,0 +1,4 @@
+kind,planted_readings,flagged,caught,precision,recall
+any,214,232.0,210,0.9052,0.9813
+temperature,108,,105,,0.9722
+vibration,106,,105,,0.9906

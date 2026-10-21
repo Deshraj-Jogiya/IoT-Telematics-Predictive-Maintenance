@@ -24,6 +24,7 @@ def initialize_database(db_path, schema_path):
     # Clean tables for a fresh run
     cursor.execute("DELETE FROM telemetry_logs;")
     cursor.execute("DELETE FROM maintenance_alerts;")
+    cursor.execute("DELETE FROM injected_anomalies;")
     conn.commit()
     conn.close()
     print(f"Database initialized and cleared at: {db_path}")
@@ -49,7 +50,7 @@ def generate_telemetry_data():
     np.random.seed(42)
     
     all_records = []
-    
+    injected = []  # (device, timestamp, kind) of every planted spike, kept apart from the readings
     for device in devices:
         # Generate baseline parameters
         base_temp = 35.0
@@ -76,9 +77,11 @@ def generate_telemetry_data():
             # 1% chance for temperature anomaly
             if np.random.random() < 0.01:
                 temp = np.random.normal(80.0, 3.0)
+                injected.append((device, ts.strftime('%Y-%m-%d %H:%M:%S'), 'temperature'))
             # 1% chance for vibration anomaly
             if np.random.random() < 0.01:
                 vib = np.random.normal(4.8, 0.4)
+                injected.append((device, ts.strftime('%Y-%m-%d %H:%M:%S'), 'vibration'))
                 
             # Default health score is initialized at 100.0, and anomaly flag is 0.
             # These will be updated by the predictive maintenance model.
@@ -96,7 +99,7 @@ def generate_telemetry_data():
             
     # Sort records by timestamp to simulate streaming order
     all_records.sort(key=lambda x: x[1])
-    return all_records
+    return all_records, injected
 
 def write_to_db_micro_batches(db_path, records, batch_size=500):
     """Simulates writing streaming logs in micro-batches to the database."""
@@ -125,8 +128,13 @@ def main():
     schema_path = os.path.join(project_root, 'db', 'schema.sql')
     
     initialize_database(db_path, schema_path)
-    records = generate_telemetry_data()
+    records, injected = generate_telemetry_data()
     write_to_db_micro_batches(db_path, records)
+    conn = sqlite3.connect(db_path)
+    conn.executemany("INSERT INTO injected_anomalies (device_id, timestamp, kind) VALUES (?, ?, ?)", injected)
+    conn.commit()
+    conn.close()
+    print(f"Recorded {len(injected)} planted sensor spikes (for evaluation only)")
 
 if __name__ == '__main__':
     main()

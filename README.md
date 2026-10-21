@@ -8,7 +8,9 @@ useful life (RUL) with an exponential degradation model, re-implemented as a JIT
 ## Highlights
 
 - **Micro-batch ingestion** of battery and motor sensor logs into SQLite.
-- **Anomaly detection:** rolling Z-scores on sensor metrics flag readings before they turn into failures, with threshold alerts.
+- **Anomaly detection:** rolling Z-scores (50-reading window, |z| > 3) on battery temperature and motor vibration. Measured against
+  the simulator's 214 planted sensor spikes, which the detector never reads: 210 caught (98.1% recall) and 90.5% of flags are real
+  spikes (`models/anomaly_detection_metrics.csv`, recomputed on every run).
 - **RUL model:** exponential decay estimates remaining useful life per device; low-RUL and critical-health alerts repeat at most
   every 4 hours while a condition persists (404 alerts across the fleet instead of one per reading), covered by `tests/test_alerts.py`.
 - **Fleet dashboard:** `viz/powerbi_export.py` writes daily device health, alerts and current device status to `exports/` for the
